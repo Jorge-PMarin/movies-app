@@ -1,0 +1,60 @@
+.nav {
+  background-color: $main-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav__container {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 1.8rem 0;
+}
+
+.nav__container__left,
+.nav__container__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__container__left__logo {
+  width: 8rem;
+  margin-right: 4rem;
+}
+
+.nav__container__left__menu__link {
+  color: #fff;
+}
+
+.nav__container__left__menu__link + .nav__container__left__menu__link {
+  margin-left: 2rem;
+}
+
+.nav__container__right > * {
+  margin-left: 2rem;
+}
+
+.nav__container__right__submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__container__right__icon,
+.nav__container__right__submenu__icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav__container__right__avatar {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
