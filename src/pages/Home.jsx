@@ -1,5 +1,11 @@
+import Featured from '../components/Featured';
+
 const Home = () => {
-  return <div className='home'>home</div>;
+  return (
+    <main className='home'>
+      <Featured />
+    </main>
+  );
 };
 
 export default Home;

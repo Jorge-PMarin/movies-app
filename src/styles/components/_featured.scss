@@ -1,0 +1,41 @@
+.featured {
+  background-image: url(../../assets/images/couple-watching-tv.jpg);
+  background-size: cover;
+  padding: 30rem 0 10rem 10rem;
+}
+
+.featured__container {
+  max-width: 50rem;
+}
+
+.featured__text {
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.featured__buttons {
+  display: flex;
+}
+
+.featured__play,
+.featured__info {
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.featured__info {
+  background-color: #999;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.featured__icon {
+  margin-right: 0.6rem;
+  font-size: 2.2rem;
+}

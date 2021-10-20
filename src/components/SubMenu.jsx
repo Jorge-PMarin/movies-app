@@ -1,10 +1,10 @@
 const SubMenu = () => {
   return (
-    <ul className="sub-menu">
-      <li>Settings</li>
-      <li>Account</li>
-      <li>Payment</li>
-      <li>Logout</li>
+    <ul className='submenu'>
+      <li className='submenu__link'>Settings</li>
+      <li className='submenu__link'>Account</li>
+      <li className='submenu__link'>Payment</li>
+      <li className='submenu__link'>Logout</li>
     </ul>
   )
 }

@@ -1,4 +1,17 @@
-.sub-menu {
+.submenu {
   position: absolute;
   background-color: $main-color;
+  border-radius: 0.5rem;
+  top: 3rem;
+  overflow: hidden;
+}
+
+.submenu__link {
+  padding: 1rem;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($main-color, 10%);
+  }
 }
